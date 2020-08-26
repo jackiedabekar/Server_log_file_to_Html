@@ -10,6 +10,19 @@ All the dependencies need are already their in python, just make sure to install
 
 # To Run
 ```
-python ticky_check.py Actual_log.log
+$ python ticky_check.py Actual_log.log
 ```
+## This 👆🏼 command will create the CSV.
 
+### For CSV To HTML Type
+```
+$ python csv_to_html.py user_statistic.csv 'path_to_save_html_file_with_filename.html_at_last'
+```
+### for Example 
+```
+$ python csv_to_html.py user_statistic.csv 'C:\Users\User_name\Desktop\user.html'
+```
+### and Similar For error_message.csv
+```
+$ python csv_to_html.py error_message.csv 'C:\Users\User_name\Desktop\error.html'
+```
