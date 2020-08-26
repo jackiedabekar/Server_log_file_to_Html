@@ -5,3 +5,11 @@
 All the dependencies need are already their in python, just make sure to install Operator.
 
 ### First run ticky_check.py and pass log file to it, which will create 2 CSV file.
+- user_statistics.csv
+- error_message.csv
+
+# To Run
+```
+python ticky_check.py Actual_log.log
+```
+
